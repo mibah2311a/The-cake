@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F5E8C7;
+    cursor: url('./images/./images/cursor1-removebg-preview.png'), auto;
+
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: url('./images/cursor1-removebg-preview.png'), auto;
+}
+
+h1 {
+    color: #8d422f;
+    text-align: center;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #efdcad;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8d422f;
+    background-color: #efdcad;
+}
+
+input[type="text"],
+input[type="number"],
+
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #8d422f;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #efdcad;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8d422f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: url('./images/cursor1-removebg-preview.png'), auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #F5E8C7;
+    color: #8d422f;
+}
